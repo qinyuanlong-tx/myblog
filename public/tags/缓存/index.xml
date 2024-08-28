@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>缓存 on Your Site Title</title>
+    <title>缓存 on 大龙的博客</title>
     <link>http://localhost:1313/tags/%E7%BC%93%E5%AD%98/</link>
-    <description>Recent content in 缓存 on Your Site Title</description>
+    <description>Recent content in 缓存 on 大龙的博客</description>
     <image>
-      <title>Your Site Title</title>
+      <title>大龙的博客</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2024 19:10:26 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 19:44:24 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E7%BC%93%E5%AD%98/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redis 教程大纲</title>
-      <link>http://localhost:1313/posts/redis-tutorial-outline/</link>
-      <pubDate>Wed, 28 Aug 2024 19:10:26 +0800</pubDate>
-      <guid>http://localhost:1313/posts/redis-tutorial-outline/</guid>
-      <description>1. Redis 简介 什么是 Redis Redis 的特点和优势 Redis 的应用场景 2. Redis 安装和配置 在不同操作系统上安装 Redis Redis 配置文件详解 Redis 基本操作命令 3. Redis 数据类型 字符串（String） 列表（List） 集合（Set） 有序集合（Sorted Set） 哈希（Hash） 4. Redis 高级特性 事务 发布/订阅 管道 Lua 脚本 5. Redis 持久化 RDB 持久化 AOF 持久化 混合持久化 6. Redis 复制与集群 主从复制 Sentinel 高可用 Redis Cluster 7. Redis 性能优化 内存优化 命令优化 网络优化 8. Redis 安全性 访问控制 加密通信 常见安全问题和解决方案 9. Redis 监控和运维 Redis 监控工具 常见问题诊断 备份和恢复策略 10.</description>
+      <title>My Redis Tutorial</title>
+      <link>http://localhost:1313/posts/my-redis-tutorial/</link>
+      <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/my-redis-tutorial/</guid>
+      <description>Redis 教程大纲 (更新版 v2) 1. Redis 简介 (更新于 2023-08-27) </description>
     </item>
   </channel>
 </rss>
