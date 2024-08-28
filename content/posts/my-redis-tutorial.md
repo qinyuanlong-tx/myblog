@@ -2,18 +2,18 @@
 title = 'My Redis Tutorial'
 date = 2024-08-28T19:44:24+08:00
 draft = false
-categories = ["数据库", "教程"]
+categories = ["数据库", "教程", "redis教程"]
 tags = ["Redis", "NoSQL", "缓存"]
 +++
 
 # Redis 教程大纲
 
-## 1. Redis 简介
+## 1. [Redis 简介]({{<ref "/posts/introduce-redis.md">}})
 - 什么是Redis
 - Redis的特点和优势
 - Redis的应用场景
 
-## 2. 安装和配置
+## 2. [安装和配置]({{<ref "posts/install-redis.md">}})
 - 在不同操作系统上安装Redis
 - Redis配置文件详解
 - 启动和停止Redis服务
