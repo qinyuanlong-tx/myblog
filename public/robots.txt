@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://localhost:1313/sitemap.xml
+Sitemap: https://1e9205f7.myblog-bgq.pages.dev/sitemap.xml

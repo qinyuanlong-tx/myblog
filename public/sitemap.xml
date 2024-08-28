@@ -2,34 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/categories/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-redis-tutorial/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/posts/my-redis-tutorial/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nosql/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/tags/nosql/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/posts/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/redis/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/tags/redis/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/tags/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%95%99%E7%A8%8B/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/categories/%E6%95%99%E7%A8%8B/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/categories/%E6%95%B0%E6%8D%AE%E5%BA%93/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E7%BC%93%E5%AD%98/</loc>
+    <loc>https://1e9205f7.myblog-bgq.pages.dev/tags/%E7%BC%93%E5%AD%98/</loc>
     <lastmod>2024-08-28T19:44:24+08:00</lastmod>
   </url>
 </urlset>

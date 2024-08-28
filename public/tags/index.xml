@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on 大龙的博客</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://1e9205f7.myblog-bgq.pages.dev/tags/</link>
     <description>Recent content in Tags on 大龙的博客</description>
     <image>
       <title>大龙的博客</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://1e9205f7.myblog-bgq.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://1e9205f7.myblog-bgq.pages.dev/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Aug 2024 19:44:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://1e9205f7.myblog-bgq.pages.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>NoSQL</title>
-      <link>http://localhost:1313/tags/nosql/</link>
+      <link>https://1e9205f7.myblog-bgq.pages.dev/tags/nosql/</link>
       <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
-      <guid>http://localhost:1313/tags/nosql/</guid>
+      <guid>https://1e9205f7.myblog-bgq.pages.dev/tags/nosql/</guid>
       <description></description>
     </item>
     <item>
       <title>Redis</title>
-      <link>http://localhost:1313/tags/redis/</link>
+      <link>https://1e9205f7.myblog-bgq.pages.dev/tags/redis/</link>
       <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
-      <guid>http://localhost:1313/tags/redis/</guid>
+      <guid>https://1e9205f7.myblog-bgq.pages.dev/tags/redis/</guid>
       <description></description>
     </item>
     <item>
       <title>缓存</title>
-      <link>http://localhost:1313/tags/%E7%BC%93%E5%AD%98/</link>
+      <link>https://1e9205f7.myblog-bgq.pages.dev/tags/%E7%BC%93%E5%AD%98/</link>
       <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
-      <guid>http://localhost:1313/tags/%E7%BC%93%E5%AD%98/</guid>
+      <guid>https://1e9205f7.myblog-bgq.pages.dev/tags/%E7%BC%93%E5%AD%98/</guid>
       <description></description>
     </item>
   </channel>
