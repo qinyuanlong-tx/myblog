@@ -18,7 +18,7 @@ tags = ["Redis", "NoSQL", "缓存"]
 - Redis配置文件详解
 - 启动和停止Redis服务
 
-## 3. Redis数据类型
+## 3. [Redis数据类型]({{<ref "posts/redis-data-type.md">}})
 - 字符串（String）
 - 列表（List）
 - 集合（Set）

@@ -11,8 +11,26 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2024 22:20:16 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 28 Aug 2024 22:42:07 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis Data Type</title>
+      <link>http://localhost:1313/posts/redis-data-type/</link>
+      <pubDate>Wed, 28 Aug 2024 22:42:07 +0800</pubDate>
+      <guid>http://localhost:1313/posts/redis-data-type/</guid>
+      <description>Redis支持多种数据类型，每种类型都有其特定的使用场景和优势。以下是Redis中五种主要的数据类型：
+字符串（String） 字符串是Redis最基本的数据类型，可以存储任何形式的字符串，包括文本、序列化的对象和二进制数据。
+最大能存储512MB 适用于缓存、计数器、分布式锁等场景 示例命令：
+SET key value GET key 列表（List） 列表是简单的字符串列表，按照插入顺序排序。你可以添加元素到列表的头部或者尾部。
+基于链表实现，插入和删除很快，但索引较慢 适用于消息队列、最新动态等场景 示例命令：
+LPUSH mylist value RPOP mylist 集合（Set） 集合是字符串的无序集合，集合中的元素是唯一的。
+支持并集、交集、差集等操作 适用于标签系统、唯一性检查等场景 示例命令：
+SADD myset value SMEMBERS myset 有序集合（Sorted Set） 有序集合类似于集合，但每个元素都关联一个分数，据此来为集合中的成员进行从小到大的排序。
+元素的排列顺序由分数决定 适用于排行榜、优先级队列等场景 示例命令：
+ZADD myzset 1 one ZRANGE myzset 0 -1 WITHSCORES 哈希（Hash） 哈希是字符串字段和字符串值之间的映射，是表示对象的完美数据类型。
+适合存储对象，每个 hash 可以存储 2^32 - 1 个键值对 适用于存储、更新用户属性等场景 示例命令：
+HSET user:1000 name &amp;#34;John Smith&amp;#34; HGET user:1000 name 每种数据类型都有其特定的命令集。选择合适的数据类型可以优化存储结构，提高操作效率。</description>
+    </item>
     <item>
       <title>Redis简介</title>
       <link>http://localhost:1313/posts/introduce-redis/</link>
@@ -44,7 +62,7 @@ Redis的应用场景 缓存：这是Redis最常见的应用场景。将热点数
       <link>http://localhost:1313/posts/my-redis-tutorial/</link>
       <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-redis-tutorial/</guid>
-      <description>Redis 教程大纲 1. [Redis 简介]({{ref &amp;ldquo;/posts/introduce-redis.md&amp;rdquo;}}) 什么是Redis Redis的特点和优势 Redis的应用场景 2. 安装和配置 在不同操作系统上安装Redis Redis配置文件详解 启动和停止Redis服务 3. Redis数据类型 字符串（String） 列表（List） 集合（Set） 有序集合（Sorted Set） 哈希（Hash） 4. Redis基本命令 键（Key）操作命令 各数据类型的CRUD操作 5. Redis高级特性 事务 发布/订阅 管道 Lua脚本 6. Redis持久化 RDB持久化 AOF持久化 混合持久化 7. Redis复制（主从复制） 复制的原理和配置 主从复制的优缺点 8. Redis哨兵（Sentinel） 哨兵的作用和原理 哨兵的配置和使用 9. Redis集群 Redis集群的特点 集群的搭建和配置 集群的扩容和缩容 10. Redis性能优化 内存优化 持久化优化 网络优化 11. Redis安全 访问控制和身份验证 加密通信 常见安全问题和解决方案 12. Redis监控和运维 监控指标 常用监控工具 日常运维任务 13. Redis与其他技术的集成 Redis与Spring Boot集成 Redis与Django集成 Redis与Node.</description>
+      <description>Redis 教程大纲 1. Redis 简介 什么是Redis Redis的特点和优势 Redis的应用场景 2. 安装和配置 在不同操作系统上安装Redis Redis配置文件详解 启动和停止Redis服务 3. Redis数据类型 字符串（String） 列表（List） 集合（Set） 有序集合（Sorted Set） 哈希（Hash） 4. Redis基本命令 键（Key）操作命令 各数据类型的CRUD操作 5. Redis高级特性 事务 发布/订阅 管道 Lua脚本 6. Redis持久化 RDB持久化 AOF持久化 混合持久化 7. Redis复制（主从复制） 复制的原理和配置 主从复制的优缺点 8. Redis哨兵（Sentinel） 哨兵的作用和原理 哨兵的配置和使用 9. Redis集群 Redis集群的特点 集群的搭建和配置 集群的扩容和缩容 10. Redis性能优化 内存优化 持久化优化 网络优化 11. Redis安全 访问控制和身份验证 加密通信 常见安全问题和解决方案 12. Redis监控和运维 监控指标 常用监控工具 日常运维任务 13. Redis与其他技术的集成 Redis与Spring Boot集成 Redis与Django集成 Redis与Node.js集成 14.</description>
     </item>
   </channel>
 </rss>
