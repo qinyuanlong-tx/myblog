@@ -1,7 +1,7 @@
 +++
 title = 'My Redis Tutorial'
 date = 2024-08-28T19:44:24+08:00
-draft = true
+draft = false
 categories = ["数据库", "教程"]
 tags = ["Redis", "NoSQL", "缓存"]
 +++
