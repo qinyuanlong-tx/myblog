@@ -3,7 +3,7 @@ title = 'Redis 教程大纲'
 date = 2024-08-28T19:10:26+08:00
 draft = false
 categories = ["数据库", "教程"]
-tags = ["Redis", "NoSQL", "缓存"]
+tags = ["Redis", "缓存"]
 +++
 
    ### 1. Redis 简介
