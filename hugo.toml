@@ -8,6 +8,8 @@
    buildFuture = false
    buildExpired = false
 
+   hasCJKLanguage = true
+
    [minify]
    disableXML = true
    minifyOutput = true
