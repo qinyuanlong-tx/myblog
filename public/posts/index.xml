@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 15:30:10 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 20:16:02 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>分布式系统中的CAP和BASE理论</title>
+      <link>http://localhost:1313/posts/cap-base/</link>
+      <pubDate>Thu, 29 Aug 2024 20:16:02 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cap-base/</guid>
+      <description>CAP理论 CAP理论由Eric Brewer在2000年提出，它指出对于一个分布式计算系统来说，不可能同时满足以下三个特性： 1. 一致性（Cons</description>
+    </item>
     <item>
       <title>Spring AOP (面向切面编程) 介绍</title>
       <link>http://localhost:1313/posts/spring-aop/</link>
