@@ -11,10 +11,33 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 28 Aug 2024 22:42:07 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 12:03:50 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/redis/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Redis Data Type</title>
+      <title>Redis基本命令</title>
+      <link>http://localhost:1313/posts/redis-basic-command/</link>
+      <pubDate>Thu, 29 Aug 2024 12:03:50 +0800</pubDate>
+      <guid>http://localhost:1313/posts/redis-basic-command/</guid>
+      <description>Redis提供了丰富的命令集来操作其数据结构。本文将介绍键（Key）操作命令以及各数据类型的CRUD（创建、读取、更新、删除）操作。
+键（Key）操作命令 EXISTS key：检查键是否存在
+EXISTS mykey DEL key：删除键
+DEL mykey TYPE key：返回键所存储的值的类型
+TYPE mykey EXPIRE key seconds：设置键的过期时间
+EXPIRE mykey 60 TTL key：查看键剩余的过期时间
+TTL mykey 各数据类型的CRUD操作 字符串（String） 创建和更新：SET
+SET mykey &amp;#34;Hello&amp;#34; 读取：GET
+GET mykey 删除：DEL
+DEL mykey 列表（List） 创建和更新：LPUSH, RPUSH
+LPUSH mylist &amp;#34;world&amp;#34; RPUSH mylist &amp;#34;hello&amp;#34; 读取：LRANGE
+LRANGE mylist 0 -1 更新：LSET
+LSET mylist 0 &amp;#34;new world&amp;#34; 删除：LPOP, RPOP
+LPOP mylist 集合（Set） 创建和更新：SADD
+SADD myset &amp;#34;Hello&amp;#34; 读取：SMEMBERS
+SMEMBERS myset 删除：SREM
+SREM myset &amp;#34;Hello&amp;#34; 有序集合（Sorted Set） 创建和更新：ZADD</description>
+    </item>
+    <item>
+      <title>Redis数据类型</title>
       <link>http://localhost:1313/posts/redis-data-type/</link>
       <pubDate>Wed, 28 Aug 2024 22:42:07 +0800</pubDate>
       <guid>http://localhost:1313/posts/redis-data-type/</guid>
