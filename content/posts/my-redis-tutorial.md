@@ -25,7 +25,7 @@ tags = ["Redis", "NoSQL", "缓存"]
 - 有序集合（Sorted Set）
 - 哈希（Hash）
 
-## 4. Redis基本命令
+## 4. [Redis基本命令]({{<ref "posts/redis-basic-command.md">}})
 - 键（Key）操作命令
 - 各数据类型的CRUD操作
 
