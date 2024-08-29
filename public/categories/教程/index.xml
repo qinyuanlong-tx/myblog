@@ -11,8 +11,27 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 12:03:50 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 29 Aug 2024 12:24:05 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Redis高级特性</title>
+      <link>http://localhost:1313/posts/redis-pro-features/</link>
+      <pubDate>Thu, 29 Aug 2024 12:24:05 +0800</pubDate>
+      <guid>http://localhost:1313/posts/redis-pro-features/</guid>
+      <description>Redis不仅提供了基本的数据存储和检索功能，还包含了一些强大的高级特性。这些特性使Redis能够应对更复杂的应用场景，提高性能和灵活性。本文将介绍四个重要的Redis高级特性：事务、发布/订阅、管道和Lua脚本。
+事务 Redis事务允许执行一组命令，确保这些命令要么全部执行，要么全部不执行。这提供了一定程度的原子性保证。
+主要命令：
+MULTI：标记事务块的开始 EXEC：执行事务块内的所有命令 DISCARD：丢弃事务块内的所有命令 示例：
+MULTI SET user:1:name &amp;#34;Alice&amp;#34; SET user:1:age 30 EXEC 发布/订阅 发布/订阅（Pub/Sub）是一种消息通信模式，允许发送者（发布者）发送消息，而不需要知道具体的接收者（订阅者）。
+主要命令：
+SUBSCRIBE：订阅一个或多个频道 PUBLISH：向频道发送消息 UNSUBSCRIBE：取消订阅 示例：
+# 订阅者 SUBSCRIBE news_channel # 发布者 PUBLISH news_channel &amp;#34;Breaking news: Redis 6.0 released!&amp;#34; 管道 Redis管道（Pipelining）允许客户端在一次请求中发送多个命令，而不需要等待每个命令的响应。这可以显著提高性能，特别是在网络延迟较高的情况下。
+示例（使用redis-cli）：
+(echo -en &amp;#34;SET key1 value1\r\nGET key1\r\nINCR counter\r\n&amp;#34;) | redis-cli --pipe Lua脚本 Redis支持使用Lua脚本，允许在服务器端执行复杂的原子操作。这不仅减少了网络往返，还确保了操作的原子性和一致性。
+主要命令：
+EVAL：执行Lua脚本 示例：
+EVAL &amp;#34;local current = redis.call(&amp;#39;GET&amp;#39;, KEYS[1]) or 0; redis.call(&amp;#39;SET&amp;#39;, KEYS[1], current + ARGV[1]); return redis.call(&amp;#39;GET&amp;#39;, KEYS[1])&amp;#34; 1 counter 5 这个脚本实现了一个原子的增加操作：获取计数器的当前值，增加指定的值，然后返回新值。</description>
+    </item>
     <item>
       <title>Redis基本命令</title>
       <link>http://localhost:1313/posts/redis-basic-command/</link>
@@ -55,6 +74,23 @@ ZADD myzset 1 one ZRANGE myzset 0 -1 WITHSCORES 哈希（Hash） 哈希是字符
 HSET user:1000 name &amp;#34;John Smith&amp;#34; HGET user:1000 name 每种数据类型都有其特定的命令集。选择合适的数据类型可以优化存储结构，提高操作效率。</description>
     </item>
     <item>
+      <title>Redis安装和配置</title>
+      <link>http://localhost:1313/posts/install-redis/</link>
+      <pubDate>Wed, 28 Aug 2024 22:26:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/install-redis/</guid>
+      <description>Redis 的安装和配置是使用这个强大数据存储系统的第一步。本文将介绍如何在不同操作系统上安装 Redis，解析 Redis 配置文件的主要内容，以及如何启动和停止 Redis 服务。
+在不同操作系统上安装Redis Linux Ubuntu/Debian:
+sudo apt update sudo apt install redis-server CentOS/RHEL:
+sudo yum install epel-release sudo yum install redis macOS 使用 Homebrew 安装：
+brew install redis Windows Windows 不是 Redis 的原生支持平台，但可以通过以下方式使用：
+使用 Windows Subsystem for Linux (WSL) 下载 Microsoft 提供的 Redis 预编译版本 Redis配置文件详解 Redis 的主要配置文件是 redis.conf。以下是一些重要的配置项：
+网络设置
+bind 127.0.0.1 port 6379 通用设置
+daemonize yes pidfile /var/run/redis_6379.pid 内存管理
+maxmemory 2gb maxmemory-policy allkeys-lru 持久化设置
+save 900 1 save 300 10 save 60 10000 安全设置</description>
+    </item>
+    <item>
       <title>Redis简介</title>
       <link>http://localhost:1313/posts/introduce-redis/</link>
       <pubDate>Wed, 28 Aug 2024 22:20:16 +0800</pubDate>
@@ -85,7 +121,7 @@ Redis的应用场景 缓存：这是Redis最常见的应用场景。将热点数
       <link>http://localhost:1313/posts/my-redis-tutorial/</link>
       <pubDate>Wed, 28 Aug 2024 19:44:24 +0800</pubDate>
       <guid>http://localhost:1313/posts/my-redis-tutorial/</guid>
-      <description>Redis 教程大纲 1. Redis 简介 什么是Redis Redis的特点和优势 Redis的应用场景 2. 安装和配置 在不同操作系统上安装Redis Redis配置文件详解 启动和停止Redis服务 3. Redis数据类型 字符串（String） 列表（List） 集合（Set） 有序集合（Sorted Set） 哈希（Hash） 4. Redis基本命令 键（Key）操作命令 各数据类型的CRUD操作 5. Redis高级特性 事务 发布/订阅 管道 Lua脚本 6. Redis持久化 RDB持久化 AOF持久化 混合持久化 7. Redis复制（主从复制） 复制的原理和配置 主从复制的优缺点 8. Redis哨兵（Sentinel） 哨兵的作用和原理 哨兵的配置和使用 9. Redis集群 Redis集群的特点 集群的搭建和配置 集群的扩容和缩容 10. Redis性能优化 内存优化 持久化优化 网络优化 11. Redis安全 访问控制和身份验证 加密通信 常见安全问题和解决方案 12. Redis监控和运维 监控指标 常用监控工具 日常运维任务 13. Redis与其他技术的集成 Redis与Spring Boot集成 Redis与Django集成 Redis与Node.js集成 14.</description>
+      <description>Redis 教程大纲 1. Redis 简介 什么是Redis Redis的特点和优势 Redis的应用场景 2. 安装和配置 在不同操作系统上安装Redis Redis配置文件详解 启动和停止Redis服务 3. Redis数据类型 字符串（String） 列表（List） 集合（Set） 有序集合（Sorted Set） 哈希（Hash） 4. Redis基本命令 键（Key）操作命令 各数据类型的CRUD操作 5. [Redis高级特性]({&amp;lt;ref &amp;ldquo;posts/reds-pro-features.md&amp;rdquo;&amp;gt;}) 事务 发布/订阅 管道 Lua脚本 6. Redis持久化 RDB持久化 AOF持久化 混合持久化 7. Redis复制（主从复制） 复制的原理和配置 主从复制的优缺点 8. Redis哨兵（Sentinel） 哨兵的作用和原理 哨兵的配置和使用 9. Redis集群 Redis集群的特点 集群的搭建和配置 集群的扩容和缩容 10. Redis性能优化 内存优化 持久化优化 网络优化 11. Redis安全 访问控制和身份验证 加密通信 常见安全问题和解决方案 12. Redis监控和运维 监控指标 常用监控工具 日常运维任务 13. Redis与其他技术的集成 Redis与Spring Boot集成 Redis与Django集成 Redis与Node.</description>
     </item>
   </channel>
 </rss>

@@ -29,7 +29,7 @@ tags = ["Redis", "NoSQL", "缓存"]
 - 键（Key）操作命令
 - 各数据类型的CRUD操作
 
-## 5. Redis高级特性
+## 5. [Redis高级特性]({{<ref "posts/redis-pro-features.md">}})
 - 事务
 - 发布/订阅
 - 管道
