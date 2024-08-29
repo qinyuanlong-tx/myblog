@@ -35,7 +35,7 @@ tags = ["Redis", "NoSQL", "缓存"]
 - 管道
 - Lua脚本
 
-## 6. Redis持久化
+## 6. [Redis持久化]({{<ref "posts/redis-persistence.md">}})
 - RDB持久化
 - AOF持久化
 - 混合持久化
