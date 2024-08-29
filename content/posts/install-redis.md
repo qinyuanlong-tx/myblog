@@ -2,6 +2,8 @@
 title = 'Redis安装和配置'
 date = 2024-08-28T22:26:24+08:00
 draft = false
+categories = ["数据库", "教程", "redis教程"]
+tags = ["Redis", "NoSQL", "缓存"]
 +++
 
 Redis 的安装和配置是使用这个强大数据存储系统的第一步。本文将介绍如何在不同操作系统上安装 Redis，解析 Redis 配置文件的主要内容，以及如何启动和停止 Redis 服务。
