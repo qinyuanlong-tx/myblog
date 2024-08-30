@@ -1,6 +1,6 @@
 +++
 title = 'Redis数据类型'
-date = 2024-08-28T22:42:07+08:00
+date = 2023-08-28T22:42:07+08:00
 draft = false
 categories = ["数据库", "教程", "redis教程"]
 tags = ["Redis", "NoSQL", "缓存"]

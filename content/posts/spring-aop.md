@@ -1,6 +1,6 @@
 +++
 title = 'Spring AOP (面向切面编程) 介绍'
-date = 2024-08-29T15:30:10+08:00
+date = 2023-07-21T15:30:10+08:00
 draft = false
 categories = ["Spring教程"]
 tags = ["Spring"]

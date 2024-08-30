@@ -1,6 +1,6 @@
 +++
 title = 'Redis安装和配置'
-date = 2024-08-28T22:26:24+08:00
+date = 2023-08-28T22:26:24+08:00
 draft = false
 categories = ["数据库", "教程", "redis教程"]
 tags = ["Redis", "NoSQL", "缓存"]

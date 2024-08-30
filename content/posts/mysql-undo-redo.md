@@ -1,6 +1,6 @@
 +++
 title = 'MySQL的Undo Log和Redo Log'
-date = 2024-08-29T21:12:16+08:00
+date = 2024-04-29T21:12:16+08:00
 draft = false
 tags = ["Mysql"]
 +++

@@ -1,6 +1,6 @@
 +++
 title = '分布式系统中的CAP和BASE理论'
-date = 2024-08-29T20:16:02+08:00
+date = 2024-05-29T20:16:02+08:00
 draft = false
 categories = ["分布式"]
 tags = ["分布式"]

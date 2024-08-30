@@ -1,6 +1,6 @@
 +++
 title = 'Redis高级特性'
-date = 2024-08-29T12:24:05+08:00
+date = 2023-08-29T12:24:05+08:00
 draft = false
 categories = ["数据库", "教程", "redis教程"]
 tags = ["Redis", "NoSQL", "缓存"]
