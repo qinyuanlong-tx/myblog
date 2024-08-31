@@ -28,6 +28,13 @@
       <description>MySQL的InnoDB存储引擎使用undo log和redo log来保证事务的原子性、一致性和持久性。这两种日志在数据库的恢复和并发控制中扮</description>
     </item>
     <item>
+      <title>Mysql索引概念及索引底层数据结构介绍</title>
+      <link>http://localhost:1313/posts/mysql-index-structure/</link>
+      <pubDate>Fri, 22 Mar 2024 16:24:15 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mysql-index-structure/</guid>
+      <description>MySQL索引是一种数据结构，用于加快数据库的查询速度。它类似于书籍的目录，可以帮助数据库系统快速定位到所需的数据，而无需扫描整个表。以下是</description>
+    </item>
+    <item>
       <title>Spring中的分布式事务解决方案</title>
       <link>http://localhost:1313/posts/dist-transition/</link>
       <pubDate>Thu, 21 Mar 2024 20:37:04 +0800</pubDate>
