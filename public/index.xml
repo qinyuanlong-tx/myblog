@@ -11,22 +11,8 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 20:37:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 20:16:02 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spring中的分布式事务解决方案</title>
-      <link>http://localhost:1313/posts/dist-transition/</link>
-      <pubDate>Thu, 29 Aug 2024 20:37:04 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dist-transition/</guid>
-      <description>1. JTA (Java Transaction API) 与 Atomikos JTA是一种标准的XA事务管理API，Atomikos是一个流行的JTA实现。 配置 @Configuration @EnableTransactionManagement public class JtaConfig { @Bean(initMethod = &amp;#34;init&amp;#34;, destroyMethod = &amp;#34;close&amp;#34;) public AtomikosDataSourceBean dataSourceA() { AtomikosDataSourceBean dataSource = new AtomikosDataSourceBean(); //</description>
-    </item>
-    <item>
-      <title>Spring Bean 详解</title>
-      <link>http://localhost:1313/posts/spring-bean/</link>
-      <pubDate>Thu, 29 Aug 2024 14:51:48 +0800</pubDate>
-      <guid>http://localhost:1313/posts/spring-bean/</guid>
-      <description>什么是Spring Bean Spring Bean 是 Spring 框架中的核心概念，它是由 Spring IoC（Inversion of Control）容器管理的对象。简单来说，Bean 就是一个</description>
-    </item>
     <item>
       <title>分布式系统中的CAP和BASE理论</title>
       <link>http://localhost:1313/posts/cap-base/</link>
@@ -40,6 +26,20 @@
       <pubDate>Mon, 29 Apr 2024 21:12:16 +0800</pubDate>
       <guid>http://localhost:1313/posts/mysql-undo-redo/</guid>
       <description>MySQL的InnoDB存储引擎使用undo log和redo log来保证事务的原子性、一致性和持久性。这两种日志在数据库的恢复和并发控制中扮</description>
+    </item>
+    <item>
+      <title>Spring中的分布式事务解决方案</title>
+      <link>http://localhost:1313/posts/dist-transition/</link>
+      <pubDate>Thu, 21 Mar 2024 20:37:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dist-transition/</guid>
+      <description>1. JTA (Java Transaction API) 与 Atomikos JTA是一种标准的XA事务管理API，Atomikos是一个流行的JTA实现。 配置 @Configuration @EnableTransactionManagement public class JtaConfig { @Bean(initMethod = &amp;#34;init&amp;#34;, destroyMethod = &amp;#34;close&amp;#34;) public AtomikosDataSourceBean dataSourceA() { AtomikosDataSourceBean dataSource = new AtomikosDataSourceBean(); //</description>
+    </item>
+    <item>
+      <title>Mysql Slow Query</title>
+      <link>http://localhost:1313/posts/mysql-slow-query/</link>
+      <pubDate>Mon, 13 Nov 2023 16:03:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mysql-slow-query/</guid>
+      <description>MySQL慢查询的定位和分析是优化数据库性能的重要步骤。以下是一个系统的方法来定位和分析MySQL慢查询： 开启慢查询日志： SET GLOBAL slow_query_log = &amp;#39;ON&amp;#39;; SET GLOBAL long_query_time =</description>
     </item>
     <item>
       <title>Redis持久化</title>
@@ -96,6 +96,13 @@
       <pubDate>Fri, 21 Jul 2023 15:30:10 +0800</pubDate>
       <guid>http://localhost:1313/posts/spring-aop/</guid>
       <description>什么是AOP？ AOP（Aspect-Oriented Programming，面向切面编程）是一种编程范式，旨在通过将横切关注点（cross-</description>
+    </item>
+    <item>
+      <title>Spring Bean 详解</title>
+      <link>http://localhost:1313/posts/spring-bean/</link>
+      <pubDate>Thu, 29 Jun 2023 14:51:48 +0800</pubDate>
+      <guid>http://localhost:1313/posts/spring-bean/</guid>
+      <description>什么是Spring Bean Spring Bean 是 Spring 框架中的核心概念，它是由 Spring IoC（Inversion of Control）容器管理的对象。简单来说，Bean 就是一个</description>
     </item>
   </channel>
 </rss>

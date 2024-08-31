@@ -11,14 +11,21 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 21:12:16 +0800</lastBuildDate>
+    <lastBuildDate>Mon, 29 Apr 2024 21:12:16 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>MySQL的Undo Log和Redo Log</title>
       <link>http://localhost:1313/posts/mysql-undo-redo/</link>
-      <pubDate>Thu, 29 Aug 2024 21:12:16 +0800</pubDate>
+      <pubDate>Mon, 29 Apr 2024 21:12:16 +0800</pubDate>
       <guid>http://localhost:1313/posts/mysql-undo-redo/</guid>
       <description>MySQL的InnoDB存储引擎使用undo log和redo log来保证事务的原子性、一致性和持久性。这两种日志在数据库的恢复和并发控制中扮</description>
+    </item>
+    <item>
+      <title>Mysql Slow Query</title>
+      <link>http://localhost:1313/posts/mysql-slow-query/</link>
+      <pubDate>Mon, 13 Nov 2023 16:03:29 +0800</pubDate>
+      <guid>http://localhost:1313/posts/mysql-slow-query/</guid>
+      <description>MySQL慢查询的定位和分析是优化数据库性能的重要步骤。以下是一个系统的方法来定位和分析MySQL慢查询： 开启慢查询日志： SET GLOBAL slow_query_log = &amp;#39;ON&amp;#39;; SET GLOBAL long_query_time =</description>
     </item>
   </channel>
 </rss>

@@ -11,21 +11,21 @@
     </image>
     <generator>Hugo -- 0.133.1</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 29 Aug 2024 20:37:04 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2024 20:16:02 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E5%88%86%E5%B8%83%E5%BC%8F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Spring中的分布式事务解决方案</title>
-      <link>http://localhost:1313/posts/dist-transition/</link>
-      <pubDate>Thu, 29 Aug 2024 20:37:04 +0800</pubDate>
-      <guid>http://localhost:1313/posts/dist-transition/</guid>
-      <description>1. JTA (Java Transaction API) 与 Atomikos JTA是一种标准的XA事务管理API，Atomikos是一个流行的JTA实现。 配置 @Configuration @EnableTransactionManagement public class JtaConfig { @Bean(initMethod = &amp;#34;init&amp;#34;, destroyMethod = &amp;#34;close&amp;#34;) public AtomikosDataSourceBean dataSourceA() { AtomikosDataSourceBean dataSource = new AtomikosDataSourceBean(); //</description>
-    </item>
     <item>
       <title>分布式系统中的CAP和BASE理论</title>
       <link>http://localhost:1313/posts/cap-base/</link>
-      <pubDate>Thu, 29 Aug 2024 20:16:02 +0800</pubDate>
+      <pubDate>Wed, 29 May 2024 20:16:02 +0800</pubDate>
       <guid>http://localhost:1313/posts/cap-base/</guid>
       <description>CAP理论 CAP理论由Eric Brewer在2000年提出，它指出对于一个分布式计算系统来说，不可能同时满足以下三个特性： 1. 一致性（Cons</description>
+    </item>
+    <item>
+      <title>Spring中的分布式事务解决方案</title>
+      <link>http://localhost:1313/posts/dist-transition/</link>
+      <pubDate>Thu, 21 Mar 2024 20:37:04 +0800</pubDate>
+      <guid>http://localhost:1313/posts/dist-transition/</guid>
+      <description>1. JTA (Java Transaction API) 与 Atomikos JTA是一种标准的XA事务管理API，Atomikos是一个流行的JTA实现。 配置 @Configuration @EnableTransactionManagement public class JtaConfig { @Bean(initMethod = &amp;#34;init&amp;#34;, destroyMethod = &amp;#34;close&amp;#34;) public AtomikosDataSourceBean dataSourceA() { AtomikosDataSourceBean dataSource = new AtomikosDataSourceBean(); //</description>
     </item>
   </channel>
 </rss>
